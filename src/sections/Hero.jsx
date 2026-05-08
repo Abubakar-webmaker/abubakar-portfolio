@@ -38,7 +38,7 @@ function Hero() {
             </a>
             <a
               className="inline-flex items-center justify-center rounded-full border border-orange-500/40 bg-slate-950/60 px-6 py-3.5 text-sm font-semibold text-orange-400 transition hover:-translate-y-0.5"
-              href="/cv/index.html"
+              href="https://abubakar-cv.vercel.app"
               target="_blank"
               rel="noreferrer"
             >
