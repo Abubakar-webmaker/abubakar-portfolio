@@ -8,11 +8,11 @@ const projects = [
     github: "https://github.com/Abubakar-webmaker/cms-frontend"
   },
   {
-    title: "TaskFlow Dashboard",
-    desc: "A clean productivity dashboard with task boards, status tracking, and intuitive UI patterns that make daily work feel organized.",
-    tech: ["React", "JavaScript", "CSS"],
-    live: "https://example.com",
-    github: "https://github.com/"
+    title: "Chate App",
+    desc: "A real-time chat application built with React, featuring a clean UI for seamless conversations.",
+    tech: ["React", "TypeScript", "CSS"],
+    live: "https://chate-frontend-3sso.vercel.app",
+    github: "https://github.com/Abubakar-webmaker/chate-frontend.git"
   },
   {
     title: "ClientPulse CRM",
