@@ -1,32 +1,36 @@
+import blogImage from "../assets/blog.png";
+import chateImage from "../assets/chate.png";
+
 const projects = [
   {
     title: "MeBlog",
     desc: "A full-stack CMS blogging platform with rich post editor, user authentication, and admin dashboard — built with the MERN stack and deployed on Vercel.",
     tech: ["React", "Node.js", "Express", "MongoDB"],
-    image: "https://cms-frontend-three-kohl.vercel.app/og-image.png",
+    image: blogImage,
     live: "https://cms-frontend-three-kohl.vercel.app",
-    github: "https://github.com/Abubakar-webmaker/cms-frontend"
+    github: "https://github.com/Abubakar-webmaker/cms-frontend",
+    status: "live"
   },
   {
     title: "Chate App",
     desc: "A real-time chat application built with React, featuring a clean UI for seamless conversations.",
     tech: ["React", "TypeScript", "CSS"],
+    image: chateImage,
     live: "https://chate-frontend-3sso.vercel.app",
-    github: "https://github.com/Abubakar-webmaker/chate-frontend.git"
+    github: "https://github.com/Abubakar-webmaker/chate-frontend.git",
+    status: "live"
   },
   {
-    title: "ClientPulse CRM",
-    desc: "A lightweight CRM concept for freelancers with lead capture, client notes, follow-up reminders, and a polished management overview.",
-    tech: ["Node.js", "Express", "MongoDB"],
-    live: "https://example.com",
-    github: "https://github.com/"
+    title: "Ecommerce Store",
+    desc: "A modern ecommerce web app concept with product listings, cart flow, checkout-ready structure, and a clean shopping experience.",
+    tech: ["React", "Node.js", "MongoDB"],
+    status: "coming-soon"
   },
   {
     title: "Agency Portfolio",
     desc: "A conversion-focused landing page built for agencies, featuring strong messaging, service cards, testimonials, and a clear contact path.",
     tech: ["React", "HTML", "CSS"],
-    live: "https://example.com",
-    github: "https://github.com/"
+    status: "coming-soon"
   }
 ];
 

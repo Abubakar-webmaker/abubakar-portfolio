@@ -20,8 +20,7 @@ function About() {
           I have been actively building with MERN for the past 1.5 years
         </p>
         <p className="mt-4 text-base leading-8 text-slate-300">
-          I am available for freelance work and open to collaborative projects where quality,
-          responsiveness, and good communication matter.
+          I am available for freelance work, collaborative projects, and office-based opportunities, where quality, responsiveness, and strong communication are valued.
         </p>
       </AnimatedSection>
     </section>

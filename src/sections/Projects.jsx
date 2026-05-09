@@ -12,9 +12,9 @@ function Projects() {
         </h2>
       </AnimatedSection>
 
-      <div className="grid gap-5 lg:grid-cols-2">
+      <div className="mx-auto grid max-w-5xl auto-rows-fr gap-4 md:grid-cols-2">
         {projects.map((project) => (
-          <AnimatedSection key={project.title} className="h-full">
+          <AnimatedSection key={project.title} className="flex h-full">
             <ProjectCard project={project} />
           </AnimatedSection>
         ))}
